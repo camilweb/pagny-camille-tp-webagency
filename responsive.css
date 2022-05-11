@@ -1,0 +1,396 @@
+
+/*TABLETTE*/
+
+@media screen and (min-width: 844px) and (max-width: 959px){
+
+    h1{
+        font-size: 28pt;
+    }
+
+    .black-txt{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /*NAVIGATION*/
+
+    ul{
+        column-gap: 1px;
+        justify-content: baseline;
+    }
+
+    #webagency{
+        font-size: 24pt;
+    }
+
+
+    /*SLIDER*/
+
+    .txt-slide{
+        width: 50%;
+        margin: 30px auto auto 100px;
+    }
+
+
+    /*SERVICES*/
+
+    .container-service{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+
+    .grid-projets{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: fit-content;
+        column-gap: 20px;
+    }
+
+
+    /*CONTACT*/
+
+    #formulaire{
+        width: 400px;
+        margin-left: 50%;
+    }
+
+    .form input{
+        width: 340px;
+        margin-bottom: 10px;
+    }
+
+    textarea{
+        width: 340px;}
+}
+
+
+
+
+
+/*TABLETTE 2*/
+
+
+@media screen and (min-width: 651px) and (max-width: 844px){
+
+    h1{
+        font-size: 28pt;
+    }
+
+    .black-txt{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /*NAVIGATION*/
+
+    menu{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    ul{
+        column-gap: 1px;
+        justify-content: baseline;
+    }
+
+    #webagency{
+        font-size: 24pt;
+    }
+
+
+    /*SLIDER*/
+
+    .txt-slide{
+        width: 80%;
+        margin: 10px auto auto 20px;
+    }
+
+    /*SERVICES*/
+
+    .container-service{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+
+    .grid-projets{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: fit-content;
+        column-gap: 20px;
+    }
+
+    /*CONTACT*/
+
+    #formulaire{
+        width: 50%;
+        margin-left: 50%;
+    }
+
+    .form input{
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    textarea{
+        width: 100%;
+    }
+}
+
+
+
+
+/*TABLETTE 2*/
+
+@media screen and (min-width: 480px) and (max-width: 650px){
+
+    h1{
+        font-size: 20pt;
+        color:#767676
+    }
+
+    .black-txt{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .white-txt{
+        color:#767676
+    }
+
+
+    /*NAVIGATION*/
+
+    menu{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    ul{
+        column-gap: 10px;
+        justify-content: baseline;
+    }
+
+    #webagency{
+        font-size: 24pt;
+    }
+
+    li a{
+        padding: 0;
+    }
+
+    /*SLIDER*/
+
+    .txt-slide{
+        position: relative;
+        width: 80%;
+        margin: 10px auto auto 20px;
+    }
+
+    #slider{
+        width: 100%;
+    }
+
+    #slider img{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #slide2{
+        display: none;
+    }
+
+
+    /*SERVICES*/
+
+    .container-service{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    #mockup img{
+        width: 400px;
+    }
+
+
+    /*PROJETS*/
+
+    .grid-projets{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 400px;
+        column-gap: 20px;
+    }
+
+
+    /*CONTACT*/
+
+    #contact{
+        height: fit-content;
+    }
+
+    #formulaire{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+    }
+
+
+    .form input{
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+/*SMARTPHONE*/
+
+@media screen and (max-width: 479px){
+
+
+    h1{
+        font-size: 20pt;
+        color:#767676
+    }
+
+    .black-txt{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .white-txt{
+        color:#767676
+    }
+
+
+    /*NAVIGATION*/
+
+    menu{
+        padding-left: 20px;
+    }
+
+    menu ul, li a{
+        display: none;
+    }
+
+    #webagency{
+        font-size: 24pt;
+    }
+
+
+    /*SLIDER*/
+
+    .txt-slide{
+        position: relative;
+        width: 80%;
+        margin: 10px auto auto 20px;
+    }
+
+    #slider{
+        width: 100%;
+    }
+
+    #slider img{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #slide2{
+        display: none;
+    }
+
+
+    /*SERVICES*/
+
+    .container-service{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    #mockup img{
+        width: 400px;
+    }
+
+
+    /*PROJETS*/
+
+    .nav-projets ul{
+        column-gap: 0;
+    }
+
+    .nav-projets {
+        height: 40px;
+    }
+
+    .nav-projets li{
+        align-self: center;
+        padding: 10px;
+    }
+
+    .grid-projets{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        width: 400px;
+        column-gap: 20px;
+    }
+
+
+    /*CONTACT*/
+
+    #contact{
+        height: fit-content;
+    }
+
+    #formulaire{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+    }
+
+
+    .form input{
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    textarea{
+        width: 100%;
+    }
+  
+    #footer{
+        font-size: 10pt;
+        line-height: normal;
+        margin-top: 50px;
+    }
+}
+
+
