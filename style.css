@@ -69,15 +69,41 @@ input[type="button"]{
 }
 
 input[type="button"]:hover{
-    box-shadow: -1px -1px 5px rgb(59, 59, 59);
+    box-shadow: -1px -1px 5px rgb(3, 3, 3);
 }
 
+.separateur{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.trait{
+    height: 2px;
+    width: 100px;
+    background-color: #b9b9b9;
+    margin-top: 6px;
+}
+
+.circle{
+    position: absolute;
+    background-color: #5dadd3;
+    width: 15px;
+    height: 15px;
+    border-radius: 75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    -ms-border-radius: 75px;
+    -o-border-radius: 75px;
+}
 
 /*MENU*/
 
 menu{
     background-color: white;
     height: 100px;
+    z-index: 100;
     display: flex;
     flex-direction: row;
     padding-left: 100px;
@@ -99,7 +125,7 @@ li a{
     display: block;
     line-height: 100px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 10px; 
     text-decoration: none;
     color: #979797;
 }
@@ -140,7 +166,7 @@ li a:hover{
 
 .txt-slide{
     position: absolute;
-    margin: 5% auto auto 100px;
+    margin: 8% auto auto 8%;
     width: 50%;
 }
 
